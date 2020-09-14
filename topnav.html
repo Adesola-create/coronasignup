@@ -36,6 +36,7 @@ body {
 
 .topnav .icon {
   display: none;
+  animation: 0.5s;
 }
 
 @media screen and (max-width: 600px) {
@@ -58,6 +59,12 @@ body {
     display: block;
     text-align: left;
   }
+@keyframes drop {
+  from{height: 0em;}
+  to{height: 2em;}
+}
+
+
 }
 </style>
 </head>
@@ -77,7 +84,7 @@ body {
 </div>
 
 <div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
+  <h2>Responsive header Example</h2>
   <p>just making the header top notch. smiles.......</p>
 </div>
 
