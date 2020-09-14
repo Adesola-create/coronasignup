@@ -37,6 +37,12 @@ body {
 .topnav .icon {
   display: none;
   animation: 0.5s;
+  
+  transition:0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.7s;
+    -ms-transition:0.7s;
+    -o-transition: 0.7s;
 }
 
 @media screen and (max-width: 600px) {
@@ -59,7 +65,7 @@ body {
     display: block;
     text-align: left;
   }
-@keyframes drop {
+@keyframes myTopnav {
   from{height: 0em;}
   to{height: 2em;}
 }
